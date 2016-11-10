@@ -10,6 +10,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\empty</object>
+    <object>objects\obj_empty2</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
