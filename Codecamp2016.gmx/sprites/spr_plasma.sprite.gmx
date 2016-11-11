@@ -7,15 +7,9 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-<<<<<<< HEAD:Codecamp2016.gmx/sprites/sprite1.sprite.gmx
   <bbox_left>5</bbox_left>
   <bbox_right>30</bbox_right>
   <bbox_top>2</bbox_top>
-=======
-  <bbox_left>0</bbox_left>
-  <bbox_right>31</bbox_right>
-  <bbox_top>0</bbox_top>
->>>>>>> f998ce2350c7cae0d5d25dc95bb890146cafa93e:Codecamp2016.gmx/sprites/temp1.sprite.gmx
   <bbox_bottom>31</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -26,6 +20,6 @@
   <width>32</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\temp1_0.png</frame>
+    <frame index="0">images\spr_plasma_0.png</frame>
   </frames>
 </sprite>
