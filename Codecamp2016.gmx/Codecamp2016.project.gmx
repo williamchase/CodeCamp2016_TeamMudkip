@@ -4,7 +4,19 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sd_building_build</sound>
+    <sound>sound\sd_building_upgrade</sound>
+    <sound>sound\sd_click</sound>
+    <sound>sound\sd_healer_beam</sound>
+    <sound>sound\sd_heli_round</sound>
+    <sound>sound\sd_jetpack_round</sound>
+    <sound>sound\sd_ninja_melee01</sound>
+    <sound>sound\sd_ninja_melee03</sound>
+    <sound>sound\sd_sniper_round</sound>
+    <sound>sound\sd_tank_round</sound>
+    <sound>sound\sd_reinheart_shelidburst</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
   </sprites>
