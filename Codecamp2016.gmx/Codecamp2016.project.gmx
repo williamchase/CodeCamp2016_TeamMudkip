@@ -48,6 +48,17 @@
       <script>scripts\tankSound.gml</script>
       <script>scripts\sniperSound.gml</script>
       <script>scripts\ninjaSound.gml</script>
+      <script>scripts\healerSound.gml</script>
+    </scripts>
+    <scripts name="Spawns">
+      <script>scripts\healerSpawnStep.gml</script>
+      <script>scripts\healerSpawnCreate.gml</script>
+      <script>scripts\tankSpawnStep.gml</script>
+      <script>scripts\tankSpawnCreate.gml</script>
+      <script>scripts\sniperSpawnCreate.gml</script>
+      <script>scripts\sniperSpawnStep.gml</script>
+      <script>scripts\ninjaSpawnCreate.gml</script>
+      <script>scripts\ninjaSpawnStep.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
