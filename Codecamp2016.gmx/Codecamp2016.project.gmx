@@ -60,6 +60,11 @@
       <script>scripts\ninjaSpawnCreate.gml</script>
       <script>scripts\ninjaSpawnStep.gml</script>
     </scripts>
+    <scripts name="Attacks">
+      <script>scripts\sniperAttack.gml</script>
+      <script>scripts\tankAttack.gml</script>
+      <script>scripts\healerAttack.gml</script>
+    </scripts>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
