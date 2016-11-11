@@ -25,6 +25,9 @@
     <script>scripts\healerHit.gml</script>
     <script>scripts\ninjaCreate.gml</script>
     <script>scripts\ninjaHit.gml</script>
+    <script>scripts\healDudes.gml</script>
+    <script>scripts\sniperCreate.gml</script>
+    <script>scripts\sniperHIt.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -33,11 +36,11 @@
     <object>objects\Energy</object>
     <object>objects\Influence</object>
     <object>objects\Money</object>
-    <object>objects\Tank</object>
     <object>objects\Healer</object>
     <object>objects\Projectile</object>
     <object>objects\Sniper</object>
     <object>objects\Ninja</object>
+    <object>objects\tank</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
