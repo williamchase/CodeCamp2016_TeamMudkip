@@ -17,6 +17,10 @@
     <script>scripts\influenceStep.gml</script>
     <script>scripts\moneyCreate.gml</script>
     <script>scripts\moneyStep.gml</script>
+    <script>scripts\projectileMovement.gml</script>
+    <script>scripts\projectileCreation.gml</script>
+    <script>scripts\tankProjectileHit.gml</script>
+    <script>scripts\tankCreate.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -27,6 +31,7 @@
     <object>objects\Money</object>
     <object>objects\Tank</object>
     <object>objects\Healer</object>
+    <object>objects\Projectile</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
