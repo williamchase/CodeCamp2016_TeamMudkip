@@ -10,6 +10,7 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+<<<<<<< HEAD
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
@@ -20,6 +21,8 @@
     <object>objects\Tank</object>
     <object>objects\Healer</object>
   </objects>
+=======
+>>>>>>> origin/master
   <rooms name="rooms">
     <room>rooms\rm_main</room>
   </rooms>
