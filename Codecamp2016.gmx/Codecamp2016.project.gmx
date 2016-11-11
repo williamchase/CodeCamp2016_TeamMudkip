@@ -28,6 +28,9 @@
     <script>scripts\healDudes.gml</script>
     <script>scripts\sniperCreate.gml</script>
     <script>scripts\sniperHIt.gml</script>
+    <script>scripts\energyIncrease.gml</script>
+    <script>scripts\influenceIncrease.gml</script>
+    <script>scripts\moneyIncrease.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
