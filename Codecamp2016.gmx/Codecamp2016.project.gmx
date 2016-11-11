@@ -6,10 +6,28 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_plasma</sprite>
+    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\projectile_fire.gml</script>
+    <script>scripts\enemy_in_range.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_building_energy</object>
+    <object>objects\Energy</object>
+    <object>objects\Influence</object>
+    <object>objects\obj_global_control</object>
+    <object>objects\obj_soldier</object>
+    <object>objects\Money</object>
+    <object>objects\obj_empty2</object>
+    <object>objects\obj_Gui</object>
+    <object>objects\obj_btn_upgradeEnergy</object>
+    <object>objects\obj_projectile</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
   </rooms>

@@ -25,13 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp = 100;
-array = array_length_1d(4)
-
-
-show_debug_message("Hello World, Object Created");
-
-
+            <string>production = 1;
+buttonArray[0]= obj_btn_produceEnergy;
+buttonArray[1]= obj_btn_UpgradeEnergy;
+currentSprite = 0;
 </string>
           </argument>
         </arguments>
@@ -54,18 +51,7 @@ show_debug_message("Hello World, Object Created");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(keyboard_check(vk_up)){
-    y-=1
-}
-else if(keyboard_check(vk_left)){
-    x-=1
-}
-else if(keyboard_check(vk_right)){
-    x+=1
-}
-else if(keyboard_check(vk_down)){
-    y+=1
-}
+            <string>sprite_index = currentSprite
 
 </string>
           </argument>
