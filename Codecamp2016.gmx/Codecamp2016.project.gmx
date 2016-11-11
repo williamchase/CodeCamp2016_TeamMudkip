@@ -55,6 +55,7 @@
       <script>scripts\sniperSound.gml</script>
       <script>scripts\ninjaSound.gml</script>
       <script>scripts\healerSound.gml</script>
+      <script>scripts\script36.gml</script>
     </scripts>
     <scripts name="Spawns">
       <script>scripts\healerSpawnStep.gml</script>
