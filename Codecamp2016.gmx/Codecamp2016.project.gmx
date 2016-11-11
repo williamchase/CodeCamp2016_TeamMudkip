@@ -19,8 +19,14 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\temp1</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\influenceCreate.gml</script>
@@ -77,10 +83,13 @@
     <object>objects\Projectile</object>
     <object>objects\Sniper</object>
     <object>objects\Ninja</object>
+    <object>objects\ninja2</object>
     <object>objects\tank</object>
+    <object>objects\parallaxMove</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
