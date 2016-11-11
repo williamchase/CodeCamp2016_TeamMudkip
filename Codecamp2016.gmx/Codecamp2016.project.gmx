@@ -23,8 +23,6 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\energyCreate.gml</script>
-    <script>scripts\energyStep.gml</script>
     <script>scripts\influenceCreate.gml</script>
     <script>scripts\influenceStep.gml</script>
     <script>scripts\moneyCreate.gml</script>
@@ -40,10 +38,17 @@
     <script>scripts\healDudes.gml</script>
     <script>scripts\sniperCreate.gml</script>
     <script>scripts\sniperHIt.gml</script>
-    <script>scripts\energyIncrease.gml</script>
     <script>scripts\influenceIncrease.gml</script>
     <script>scripts\moneyIncrease.gml</script>
+    <script>scripts\energyCreate.gml</script>
+    <script>scripts\energyStep.gml</script>
+    <script>scripts\energyIncrease.gml</script>
     <script>scripts\parallax.gml</script>
+    <scripts name="Sounds">
+      <script>scripts\tankSound.gml</script>
+      <script>scripts\sniperSound.gml</script>
+      <script>scripts\ninjaSound.gml</script>
+    </scripts>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
