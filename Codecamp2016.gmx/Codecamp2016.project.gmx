@@ -6,16 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
-  <backgrounds name="background">
-    <background>background\bkr_test</background>
-    <background>background\background1</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\script0.gml</script>
-  </scripts>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\rm_main</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
