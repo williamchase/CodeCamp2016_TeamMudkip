@@ -1,0 +1,2 @@
+var amount = 0;
+

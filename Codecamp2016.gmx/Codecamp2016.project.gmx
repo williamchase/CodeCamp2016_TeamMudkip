@@ -10,6 +10,14 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\energyCreate.gml</script>
+    <script>scripts\energyStep.gml</script>
+    <script>scripts\influenceCreate.gml</script>
+    <script>scripts\influenceStep.gml</script>
+    <script>scripts\moneyCreate.gml</script>
+    <script>scripts\moneyStep.gml</script>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
@@ -19,9 +27,6 @@
     <object>objects\Money</object>
     <object>objects\Tank</object>
     <object>objects\Healer</object>
-    <object>objects\energyBuilding</object>
-    <object>objects\influenceBuilding</object>
-    <object>objects\powerBuilding</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
