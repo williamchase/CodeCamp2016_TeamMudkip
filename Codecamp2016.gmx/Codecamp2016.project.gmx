@@ -18,8 +18,10 @@
     <sound>sound\sd_reinheart_shelidburst</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\sprite3</sprite>
     <sprite>sprites\temp1</sprite>
+    <sprite>sprites\billboards</sprite>
+    <sprite>sprites\sprite0</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -72,6 +74,9 @@
       <script>scripts\tankAttack.gml</script>
       <script>scripts\healerAttack.gml</script>
     </scripts>
+    <script>scripts\billboardStep.gml</script>
+    <script>scripts\enemy_in_range.gml</script>
+    <script>scripts\projectile_fire.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
@@ -87,6 +92,14 @@
     <object>objects\ninja2</object>
     <object>objects\tank</object>
     <object>objects\parallaxMove</object>
+    <object>objects\obj_btn_upgradeEnergy</object>
+    <object>objects\obj_building_energy</object>
+    <object>objects\obj_empty2</object>
+    <object>objects\obj_global_control</object>
+    <object>objects\obj_Gui</object>
+    <object>objects\obj_projectile</object>
+    <object>objects\obj_soldier</object>
+    <object>objects\billboard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
