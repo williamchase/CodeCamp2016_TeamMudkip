@@ -28,6 +28,13 @@
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background3</background>
+    <background>background\meme1</background>
+    <background>background\meme2</background>
+    <background>background\meme3</background>
+    <background>background\meme4</background>
+    <background>background\meme5</background>
+    <background>background\meme6</background>
+    <background>background\meme7</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
