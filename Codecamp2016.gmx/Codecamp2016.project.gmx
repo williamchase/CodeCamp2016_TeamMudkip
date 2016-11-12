@@ -6,9 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_plasma</sprite>
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\spr_plasma</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\temp1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,7 +27,7 @@
     <object>objects\obj_projectile</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_main</room>
+    <room>rooms\rm_Main</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
