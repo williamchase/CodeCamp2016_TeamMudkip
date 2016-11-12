@@ -16,6 +16,7 @@
     <sound>sound\sd_sniper_round</sound>
     <sound>sound\sd_tank_round</sound>
     <sound>sound\sd_reinheart_shelidburst</sound>
+    <sound>sound\sd_back_ground</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite3</sprite>
@@ -65,6 +66,7 @@
       <script>scripts\ninjaSound.gml</script>
       <script>scripts\healerSound.gml</script>
       <script>scripts\script36.gml</script>
+      <script>scripts\back_ground_music.gml</script>
     </scripts>
     <scripts name="Spawns">
       <script>scripts\healerSpawnStep.gml</script>
@@ -109,6 +111,7 @@
     <object>objects\obj_soldier</object>
     <object>objects\billboard</object>
     <object>objects\squaresObj</object>
+    <object>objects\back_ground_music_ctrl</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
