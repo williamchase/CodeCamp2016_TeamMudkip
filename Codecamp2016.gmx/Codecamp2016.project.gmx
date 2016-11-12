@@ -4,30 +4,103 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sd_building_build</sound>
+    <sound>sound\sd_building_upgrade</sound>
+    <sound>sound\sd_click</sound>
+    <sound>sound\sd_healer_beam</sound>
+    <sound>sound\sd_heli_round</sound>
+    <sound>sound\sd_jetpack_round</sound>
+    <sound>sound\sd_ninja_melee01</sound>
+    <sound>sound\sd_ninja_melee03</sound>
+    <sound>sound\sd_sniper_round</sound>
+    <sound>sound\sd_tank_round</sound>
+    <sound>sound\sd_reinheart_shelidburst</sound>
+  </sounds>
   <sprites name="sprites">
+<<<<<<< HEAD
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\spr_plasma</sprite>
     <sprite>sprites\sprite2</sprite>
+=======
+    <sprite>sprites\sprite0</sprite>
+>>>>>>> 3d505e738758fff6d91cafe954ec37eb078b9bfe
     <sprite>sprites\temp1</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\projectile_fire.gml</script>
-    <script>scripts\enemy_in_range.gml</script>
+    <script>scripts\influenceCreate.gml</script>
+    <script>scripts\influenceStep.gml</script>
+    <script>scripts\moneyCreate.gml</script>
+    <script>scripts\moneyStep.gml</script>
+    <script>scripts\projectileMovement.gml</script>
+    <script>scripts\projectileCreation.gml</script>
+    <script>scripts\tankProjectileHit.gml</script>
+    <script>scripts\tankCreate.gml</script>
+    <script>scripts\healerCreate.gml</script>
+    <script>scripts\healerHit.gml</script>
+    <script>scripts\ninjaCreate.gml</script>
+    <script>scripts\ninjaHit.gml</script>
+    <script>scripts\healDudes.gml</script>
+    <script>scripts\sniperCreate.gml</script>
+    <script>scripts\sniperHIt.gml</script>
+    <script>scripts\influenceIncrease.gml</script>
+    <script>scripts\moneyIncrease.gml</script>
+    <script>scripts\energyCreate.gml</script>
+    <script>scripts\energyStep.gml</script>
+    <script>scripts\energyIncrease.gml</script>
+    <script>scripts\parallax.gml</script>
+    <scripts name="Sounds">
+      <script>scripts\tankSound.gml</script>
+      <script>scripts\sniperSound.gml</script>
+      <script>scripts\ninjaSound.gml</script>
+      <script>scripts\healerSound.gml</script>
+      <script>scripts\script36.gml</script>
+    </scripts>
+    <scripts name="Spawns">
+      <script>scripts\healerSpawnStep.gml</script>
+      <script>scripts\healerSpawnCreate.gml</script>
+      <script>scripts\tankSpawnStep.gml</script>
+      <script>scripts\tankSpawnCreate.gml</script>
+      <script>scripts\sniperSpawnCreate.gml</script>
+      <script>scripts\sniperSpawnStep.gml</script>
+      <script>scripts\ninjaSpawnCreate.gml</script>
+      <script>scripts\ninjaSpawnStep.gml</script>
+    </scripts>
+    <scripts name="Attacks">
+      <script>scripts\sniperAttack.gml</script>
+      <script>scripts\tankAttack.gml</script>
+      <script>scripts\healerAttack.gml</script>
+    </scripts>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shader0.shader</shader>
+  </shaders>
   <objects name="objects">
-    <object>objects\obj_building_energy</object>
-    <object>objects\obj_global_control</object>
-    <object>objects\obj_soldier</object>
-    <object>objects\obj_empty2</object>
-    <object>objects\obj_Gui</object>
-    <object>objects\obj_btn_upgradeEnergy</object>
-    <object>objects\obj_projectile</object>
+    <object>objects\Energy</object>
+    <object>objects\Influence</object>
+    <object>objects\Money</object>
+    <object>objects\Healer</object>
+    <object>objects\Projectile</object>
+    <object>objects\Sniper</object>
+    <object>objects\Ninja</object>
+    <object>objects\ninja2</object>
+    <object>objects\tank</object>
+    <object>objects\parallaxMove</object>
   </objects>
   <rooms name="rooms">
+<<<<<<< HEAD
     <room>rooms\rm_Main</room>
+=======
+    <room>rooms\rm_main</room>
+    <room>rooms\room1</room>
+>>>>>>> 3d505e738758fff6d91cafe954ec37eb078b9bfe
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
